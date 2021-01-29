@@ -1,0 +1,32 @@
+body {
+    color: #8a7f7f
+}
+.banner {
+    color: white;
+    background-image: url('../imagenes/banner.webp');
+    height: 300px;
+}
+
+.banner .mask {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.banner .text {
+    z-index: 2;
+    font-size: 4.5rem;
+}
+
+.producto {
+    /* border: solid 1px black; */
+    padding: 10px;
+}
+
+.imgProducto {
+    width: 100%;
+}
