@@ -10,7 +10,7 @@ body {
 .banner .mask {
     position: absolute;
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.4;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -19,7 +19,7 @@ body {
 
 .banner .text {
     z-index: 2;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 .producto {
@@ -29,4 +29,42 @@ body {
 
 .imgProducto {
     width: 100%;
+}
+
+.titulo {
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    text-decoration: underline;
+}
+
+.profile-mini img {
+    width: 36px;
+    border: 2px solid #FFF;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.botonPago {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.resultado {
+    height: 600px;
+}
+
+.cantidad {
+    text-align: right;
 }
